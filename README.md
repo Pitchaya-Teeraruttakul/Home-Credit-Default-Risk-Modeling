@@ -74,17 +74,14 @@ This repository provides an end-to-end implementation of a Probability of Defaul
 
 # References
 
-IFRS 9 Standard Documentation
-
-Kaggle Home Credit Default Risk Competition
-
-Zhao et al. (2018), "Credit Risk Modeling with WOE and Logistic Regression"
+- IFRS 9 Standard Documentation
+  -(Kaggle) Home Credit Default Risk Competition
+  -Detail framework : https://www.linkedin.com/posts/alexey-gavrilyuk-8a60a685_milestones-of-pd-calculation-for-ecl-assessment-activity-7316346316001824768-H3nS/?utm_source=chatgpt.com
+  -Zhao et al. (2018), "Credit Risk Modeling with WOE and Logistic Regression"
 
 # License
 
     This project is licensed under the MIT License. Feel free to adapt and extend.
-
-Detail framework : https://www.linkedin.com/posts/alexey-gavrilyuk-8a60a685_milestones-of-pd-calculation-for-ecl-assessment-activity-7316346316001824768-H3nS/?utm_source=chatgpt.com
 
 - the small unique exposture < 30 records make global quantile bins and assign to relative bucket because i dont want to drop any row of post model data!!
 
