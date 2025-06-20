@@ -55,7 +55,7 @@ This repository provides an end-to-end implementation of a Probability of Defaul
         Calibrate PIT PD to align with empirical 12‑month default rates.
 
 
-    Scorecard & Segmentation (IFRS 9 Segment to Portfolio Level and )
+    Scorecard & Segmentation (IFRS 9 Segment to Portfolio Level and Risk Gragd Level)
         Define segmentation buckets based on score bands.
 
 
@@ -77,7 +77,6 @@ This repository provides an end-to-end implementation of a Probability of Defaul
 - IFRS 9 Standard Documentation
   -(Kaggle) Home Credit Default Risk Competition
   -Detail framework : https://www.linkedin.com/posts/alexey-gavrilyuk-8a60a685_milestones-of-pd-calculation-for-ecl-assessment-activity-7316346316001824768-H3nS/?utm_source=chatgpt.com
-  -Zhao et al. (2018), "Credit Risk Modeling with WOE and Logistic Regression"
 
 # License
 
