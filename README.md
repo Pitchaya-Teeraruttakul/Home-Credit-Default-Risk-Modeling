@@ -4,6 +4,8 @@
 
 This repository provides an end-to-end implementation of a Probability of Default (PD) modeling framework aligned with IFRS 9 requirements, Home Credit Default Risk dataset. It covers data preparation, feature engineering, WOE binning and IV analysis, logistic regression PD modeling, segmentation/scorecard, IFRS 9 segmentation criteria, calibration of PIT and lifetime PDs, and fortfolio ECL computation.
 
+Core Project Code in : src/notebooks
+
 # Objectives 🪵
 
     - Build a robust logistic regression PD model using WOE-transformed features
@@ -48,7 +50,7 @@ This repository provides an end-to-end implementation of a Probability of Defaul
         Do randomSearch (for the most time efficiency) --> Hyperparameter Tuning
         Evaluate model using AUC, KS statistic, calibration plots.
 
-# Post Modeling 🐌
+# Post Modeling 🙆🏻
 
     1. PIT PDs Calibration (calibrate Raw PDs from logistic regression model prediction to Point-In-Time PDs)
         Calibrate PIT PD to align with empirical 12‑month default rates using #Isotonic Regression
